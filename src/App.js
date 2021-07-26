@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import Square from './components/Square'
+import YoutubeEmbed from './components/YoutubeEmbedded'
 import './App.css'
+
 
 class App extends Component{
   constructor(props){
@@ -119,6 +121,14 @@ class App extends Component{
         </div>
         <p id="counter">Count: {this.state.count}</p>
    <button id="restart" onClick={this.refreshPage}>PLAY AGAIN </button>
+
+   <div className="App">
+      <h1>Youtube Embed</h1>
+      <YoutubeEmbed embedId="rokGy0huYEA" />
+    </div>
+
+
+
       </>
     )
   }
