@@ -5,7 +5,9 @@ class Square extends Component{
 
 handleClick = () => {
   this.props.handleGamePlay(this.props.index)
+
 }
+
 
 
   render(){
@@ -13,6 +15,7 @@ handleClick = () => {
       <>
       <div id= "square" onClick={this.handleClick}>
       {this.props.value}</div>
+      
       </>
     )
   }
