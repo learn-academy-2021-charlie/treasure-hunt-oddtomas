@@ -1,0 +1,49 @@
+h1{
+    text-align: center;
+}
+
+#square{
+
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    font-size: 10rem;
+    text-align: center;
+
+}
+
+
+#gameboard{
+display: flex;
+width: 620px;
+flex-wrap: wrap;
+margin: 0 auto;
+
+
+}
+
+#restart{
+margin-left: 660px;
+margin-top: 10px;
+
+
+}
+
+#counter{
+    margin-left:  680px;
+}
+
+.video-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+  }
+  
+  .video-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
